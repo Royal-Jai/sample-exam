@@ -1,0 +1,14 @@
+.portfoliosection {
+  width: 80%;
+  // min-height: 100vh;
+  // background: red;
+  @media screen and (max-width: 567px) {
+    width: 100%;
+  }
+  @media screen and (min-width: 600px) and (max-width: 993px) {
+    width: 75%;
+  }
+}
+.commonsection {
+  float: right;
+}

@@ -1,0 +1,146 @@
+.aboutprofile {
+  height: 100vh;
+  background-repeat: no-repeat !important;
+  background-size: 100% !important;
+  overflow-y: hidden;
+}
+
+@media screen and (max-width: 567px) {
+  .aboutprofile {
+    height: auto;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    overflow-y: auto;
+    position: absolute;
+    z-index: -1;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 993px) {
+  .aboutprofile {
+    background-size: auto !important;
+  }
+}
+
+@media screen and (min-width: 994px) and (max-width: 1200px) {
+  .aboutprofile {
+    background-size: 100% 100% !important;
+    overflow-y: hidden;
+  }
+}
+
+@media screen and (min-width: 1250px) and (max-width: 1460px) {
+  .aboutprofile {
+    background-size: 100% 100% !important;
+  }
+}
+
+.aboutprofile h1 {
+  margin-top: 200px;
+  font-size: 80px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 567px) {
+  .aboutprofile h1 {
+    margin-top: 100px;
+    font-size: 72px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 993px) {
+  .aboutprofile h1 {
+    font-size: 75px;
+  }
+}
+
+@media screen and (min-width: 994px) and (max-width: 1200px) {
+  .aboutprofile h1 {
+    margin-top: 185px;
+  }
+}
+
+.aboutprofile h1 span {
+  color: #896288;
+}
+
+@media screen and (max-width: 567px) {
+  .aboutprofile h1 span {
+    line-height: 100px;
+  }
+}
+
+.aboutprofile p {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 0px;
+  color: gray;
+  padding-top: 4px;
+  line-height: 28px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 993px) {
+  .aboutprofile p {
+    font-size: 15px;
+  }
+}
+
+.aboutprofile .profileExperience {
+  font-size: 20px;
+  color: lightslategray;
+  text-align: justify;
+  font-weight: 400;
+  margin-top: 10px;
+  font-family: "roboto", "sans-serif";
+}
+
+.aboutprofile ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  margin-bottom: 25px;
+}
+
+.aboutprofile ul li {
+  padding-bottom: 20px;
+  padding: 10px 20px 10px 0px;
+  display: inline-block;
+}
+
+.aboutprofile ul li a {
+  color: #fff;
+}
+
+.aboutprofile ul li a .fa-facebook-f {
+  background: #3b5998;
+  padding: 10px;
+  padding: 18px;
+  line-height: 15px;
+  border-radius: 25px;
+  font-size: 24px;
+}
+
+.aboutprofile ul li a .fa-twitter {
+  background: #00acee;
+  padding: 14px;
+  line-height: 22px;
+  border-radius: 25px;
+  font-size: 22px;
+}
+
+.aboutprofile ul li a .fa-linkedin-in {
+  background: #0e76a8;
+  padding: 16px;
+  font-size: 22px;
+  border-radius: 25px;
+  line-height: 18px;
+}
+
+.aboutprofile ul li a .fa-github-alt {
+  background: #ad5c51;
+  padding: 15px;
+  font-size: 22px;
+  line-height: 20px;
+  border-radius: 25px;
+}
+/*# sourceMappingURL=home.component.css.map */

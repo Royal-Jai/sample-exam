@@ -1,0 +1,41 @@
+.portfolio {
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 567px) {
+  .portfolio {
+    margin-top: 80px;
+  }
+}
+
+.portfolio h2 {
+  text-align: center;
+  color: #896288;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.portfolio hr {
+  width: 10%;
+  margin: -4px auto;
+  border-top: 4px solid lightgray;
+}
+
+::ng-deep .mat-tab-nav-bar,
+::ng-deep .mat-tab-header {
+  border-bottom: 1px solid #fff;
+}
+
+::ng-deep .mat-tab-group.mat-primary .mat-ink-bar,
+::ng-deep .mat-tab-nav-bar.mat-primary .mat-ink-bar {
+  background: #3f51b5;
+}
+
+::ng-deep .mat-tab-label .mat-tab-label-content {
+  font-size: 20px;
+}
+
+.fisrttab {
+  background: red;
+}
+/*# sourceMappingURL=portfolio.component.css.map */

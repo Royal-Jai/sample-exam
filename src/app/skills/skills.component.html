@@ -1,0 +1,76 @@
+<div [ngClass] = "['portfolioSkills']">
+  <div class="container">
+    <div class="row">
+       <div class="col-md-12">
+         <h2>{{title}}</h2>
+         <hr>
+       </div>
+    </div>
+  </div>
+ <div class="skillsbgimage" [ngStyle] = "{'background':'url(assets/images/bg-stats.jpg)'}">
+  <div class="skillsbgcolor">
+     <div class="container">
+       <div class="row">
+        <div class="col-lg-4 mt-4">
+          <div class="skills-card" data-aos="fade-left">
+           <i class="fab fa-html5 tech-icons"></i>
+           <h4 class="mt-2">{{htmlcount + "%"}}</h4>
+           <p>{{htmltitle}}</p>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-4">
+          <div class="skills-card" data-aos="fade-left">
+            <i class="fab fa-css3 tech-icons"></i>
+            <h4 class="mt-2">{{csscount + "%"}}</h4>
+            <p>{{csstitle}}</p>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-4">
+          <div class="skills-card" data-aos="fade-left">
+            <i class="fab fa-js tech-icons"></i>
+            <h4 class="mt-2">{{jscount + "%"}}</h4>
+            <p>{{jstitle}}</p>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-4">
+          <div class="skills-card" data-aos="fade-left">
+            <i class="fab fa-bootstrap tech-icons"></i>
+            <h4 class="mt-2">{{bootstrapcount + "%"}}</h4>
+            <p>{{bootstarptitle}}</p>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-4">
+          <div class="skills-card" data-aos="fade-left">
+            <i class="fab fa-react tech-icons"></i>
+            <h4 class="mt-2">{{reactcount + "%"}}</h4>
+            <p>{{reacttitle}}</p>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-4">
+          <div class="skills-card" data-aos="fade-left">
+            <i class="fab fa-angular tech-icons"></i>
+            <h4 class="mt-2">{{angularcount + "%"}}</h4>
+            <p>{{angulartitle}}</p>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-4">
+          <div class="skills-card" data-aos="fade-left">
+            <i class="fab fa-wordpress tech-icons"></i>
+            <h4 class="mt-2">{{wordpresscount + "%"}}</h4>
+            <p>{{wordpresstitle}}</p>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-4">
+          <div class="skills-card" data-aos="fade-left">
+            <i class="fab fa-php tech-icons"></i>
+            <h4 class="mt-2">{{phpcount + "%"}}</h4>
+            <p>{{phptitle}}</p>
+          </div>
+        </div>
+       </div>
+     </div>
+  </div>
+ </div>
+</div>
+
+
